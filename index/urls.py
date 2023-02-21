@@ -19,7 +19,7 @@ from .import views
 
 urlpatterns = [
     
-    path('', views.home),
+    path('https://chinniweb-production.up.railway.app', views.home),
     path('contacts/', views.contacts),
     
 ]
