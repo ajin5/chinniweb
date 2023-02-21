@@ -129,4 +129,4 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = BASE_DIR / 'assets'
-CSRF_TRUSTED_ORIGINS = ['https://chinniweb-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://chinniweb-production.up.railway.app']
