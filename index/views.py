@@ -6,6 +6,7 @@ from django.views.decorators.csrf import csrf_exempt
 def home(request):
     return render(request, 'index.html' )
 
+@csrf_exempt
 def contacts(request):
     if request .method == 'POST' :
         name = request.POST.get('name')
